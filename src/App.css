@@ -1,0 +1,6 @@
+/* App-level resets — component styles live in CSS modules */
+#root {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}

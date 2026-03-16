@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  height: 100%;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.slider {
+  flex: 1;
+  accent-color: var(--accent);
+  height: 4px;
+  cursor: pointer;
+}
+
+.canvasWrapper {
+  flex: 1;
+  overflow: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--bg-base);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.svg {
+  display: block;
+}
